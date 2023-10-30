@@ -1,0 +1,15 @@
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.csproj.AssemblyReference.cache
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.AssemblyInfoInputs.cache
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.AssemblyInfo.cs
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.csproj.CoreCompileInputs.cache
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.exe
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.deps.json
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.runtimeconfig.json
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.dll
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\bin\Debug\net7.0\Dijkstra.pdb
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.dll
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\refint\Dijkstra.dll
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.pdb
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\Dijkstra.genruntimeconfig.cache
+C:\Users\siwinskn\source\repos\Dijkstra\Dijkstra\obj\Debug\net7.0\ref\Dijkstra.dll

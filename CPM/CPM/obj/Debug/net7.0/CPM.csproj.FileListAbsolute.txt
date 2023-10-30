@@ -1,0 +1,15 @@
+C:\Users\siwinskn\source\repos\CPM\CPM\bin\Debug\net7.0\CPM.exe
+C:\Users\siwinskn\source\repos\CPM\CPM\bin\Debug\net7.0\CPM.deps.json
+C:\Users\siwinskn\source\repos\CPM\CPM\bin\Debug\net7.0\CPM.runtimeconfig.json
+C:\Users\siwinskn\source\repos\CPM\CPM\bin\Debug\net7.0\CPM.dll
+C:\Users\siwinskn\source\repos\CPM\CPM\bin\Debug\net7.0\CPM.pdb
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.csproj.AssemblyReference.cache
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.AssemblyInfoInputs.cache
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.AssemblyInfo.cs
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.csproj.CoreCompileInputs.cache
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.dll
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\refint\CPM.dll
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.pdb
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\CPM.genruntimeconfig.cache
+C:\Users\siwinskn\source\repos\CPM\CPM\obj\Debug\net7.0\ref\CPM.dll

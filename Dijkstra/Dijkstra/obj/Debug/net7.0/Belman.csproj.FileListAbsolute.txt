@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\bin\Debug\net7.0\Belman.exe
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\bin\Debug\net7.0\Belman.deps.json
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\bin\Debug\net7.0\Belman.runtimeconfig.json
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\bin\Debug\net7.0\Belman.dll
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\bin\Debug\net7.0\Belman.pdb
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.dll
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\refint\Belman.dll
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.pdb
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\Belman.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Belman-Dijkstra\Dijkstra\Dijkstra\obj\Debug\net7.0\ref\Belman.dll

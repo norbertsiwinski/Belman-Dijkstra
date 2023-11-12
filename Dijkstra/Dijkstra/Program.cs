@@ -1,5 +1,5 @@
 ﻿
-    string fileName = "C:\\Users\\siwinskn\\source\\repos\\Dijkstra\\Dijkstra\\input.txt"; // Zmień na nazwę swojego pliku
+    string fileName = "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstra\\input.txt"; 
 
     if (File.Exists(fileName))
     {

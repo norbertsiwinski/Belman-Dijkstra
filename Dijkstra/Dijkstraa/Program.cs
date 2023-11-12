@@ -1,82 +1,120 @@
-﻿string fileName = "C:\\Users\\siwinskn\\source\\repos\\Dijkstra\\Dijkstra\\input.txt"; // Zmień na nazwę swojego pliku
+﻿using System;
+using System.IO;
 
-if (File.Exists(fileName))
+struct Data
 {
-    using (StreamReader reader = File.OpenText(fileName))
+    public int Distance;
+    public int Predecessor;
+    public bool Visited;
+}
+
+class Program
+{
+    static int FindMinimum(ref Data[] table)
     {
-        int numVertices = int.Parse(reader.ReadLine());
-
-        int[,] graph = new int[numVertices, numVertices];
-
-        for (int i = 0; i < numVertices; i++)
+        int min = -1;
+        int minDistance = int.MaxValue;
+        for (int i = 0; i < table.Length; i++)
         {
-            string[] input = reader.ReadLine().Split(new[] { "  " }, StringSplitOptions.RemoveEmptyEntries);
-
-            for (int j = 0; j < numVertices; j++)
+            if (!table[i].Visited && table[i].Distance < minDistance)
             {
-                graph[i, j] = int.Parse(input[j]);
+                min = i;
+                minDistance = table[i].Distance;
             }
         }
-
-        int startNode = 0;
-
-        DijkstraAlgorithm(graph, startNode);
-    }
-}
-else
-{
-    Console.WriteLine("Plik nie istnieje.");
-}
-
-void DijkstraAlgorithm(int[,] graph, int startNode)
-{
-    int numVertices = graph.GetLength(0);
-    int[] distance = new int[numVertices];
-    bool[] shortestPathTreeSet = new bool[numVertices];
-
-    for (int i = 0; i < numVertices; i++)
-    {
-        distance[i] = int.MaxValue;
-        shortestPathTreeSet[i] = false;
+        return min;
     }
 
-    distance[startNode] = 0;
-
-    for (int count = 0; count < numVertices - 1; count++)
+    static Data[] Dijkstra(int[,] matrix, int start)
     {
-        int u = MinimumDistance(distance, shortestPathTreeSet, numVertices);
-        shortestPathTreeSet[u] = true;
-
-        for (int v = 0; v < numVertices; v++)
+        Data[] table = new Data[matrix.GetLength(0)];
+        for (int i = 0; i < matrix.GetLength(0); i++)
         {
-            if (!shortestPathTreeSet[v] && graph[u, v] != 0 &&
-                distance[u] != int.MaxValue && distance[u] + graph[u, v] < distance[v])
+            table[i].Distance = (i == start) ? 0 : int.MaxValue;
+            table[i].Visited = false;
+            table[i].Predecessor = -1;
+        }
+        int u = start;
+        while (u != -1)
+        {
+            table[u].Visited = true;
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                distance[v] = distance[u] + graph[u, v];
+                if (matrix[u, i] > 0 && table[u].Distance + matrix[u, i] < table[i].Distance)
+                {
+                    table[i].Distance = table[u].Distance + matrix[u, i];
+                    table[i].Predecessor = u;
+                }
+            }
+            u = FindMinimum(ref table);
+        }
+        return table;
+    }
+
+    static void PrintData(int i, Data d)
+    {
+        Console.Write("{0}\t", i);
+        if (!d.Visited)
+        {
+            Console.Write("unvisited");
+        }
+        else
+        {
+            if (d.Predecessor == -1)
+                Console.Write("none");
+            else Console.Write("{0}", d.Predecessor);
+            Console.Write("\t{0}", d.Distance);
+        }
+        Console.WriteLine();
+    }
+
+    static void Main(string[] args)
+    {
+        string fileName = "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstraa\\input.txt"; // Change to your file name
+
+        if (File.Exists(fileName))
+        {
+            using (StreamReader reader = File.OpenText(fileName))
+            {
+                int numVertices = int.Parse(reader.ReadLine());
+
+                int[,] graph = new int[numVertices, numVertices];
+
+                for (int i = 0; i < numVertices; i++)
+                {
+                    string[] input = reader.ReadLine().Split(new[] { "  " }, StringSplitOptions.RemoveEmptyEntries);
+
+                    for (int j = 0; j < numVertices; j++)
+                    {
+                        graph[i, j] = int.Parse(input[j]);
+                    }
+                }
+
+                int startNode = 0;
+
+                Data[] table = Dijkstra(graph, startNode);
+
+                Console.WriteLine("Shortest Paths:");
+                for (int target = 0; target < numVertices; target++)
+                {
+                    Console.Write($"{table[target].Distance} [");
+                    int node = target;
+                    while (node != -1)
+                    {
+                        Console.Write(node);
+                        if (table[node].Predecessor != -1)
+                        {
+                            Console.Write(", ");
+                        }
+                        node = table[node].Predecessor;
+                    }
+                    Console.WriteLine("]");
+                }
             }
         }
-    }
-
-    Console.WriteLine("Najkrótsze Ścieżki:");
-    for (int i = 0; i < numVertices; i++)
-    {
-        Console.WriteLine($"{i} [{distance[i]}]");
-    }
-}
-
-int MinimumDistance(int[] distance, bool[] shortestPathTreeSet, int numVertices)
-{
-    int minDistance = int.MaxValue;
-    int minIndex = -1;
-
-    for (int v = 0; v < numVertices; v++)
-    {
-        if (!shortestPathTreeSet[v] && distance[v] <= minDistance)
+        else
         {
-            minDistance = distance[v];
-            minIndex = v;
+            Console.WriteLine("File does not exist.");
         }
     }
-
-    return minIndex;
 }

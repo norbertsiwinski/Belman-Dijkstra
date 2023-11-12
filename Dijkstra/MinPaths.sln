@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Belman", "Dijkstra\Belman.csproj", "{6E3CB39F-88E7-4CEB-9D69-8D186BD6436B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstraa", "Dijkstraa\Dijkstraa.csproj", "{8FE58835-0F74-4BA9-969E-A65C095BF310}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3CB39F-88E7-4CEB-9D69-8D186BD6436B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3CB39F-88E7-4CEB-9D69-8D186BD6436B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3CB39F-88E7-4CEB-9D69-8D186BD6436B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3CB39F-88E7-4CEB-9D69-8D186BD6436B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE58835-0F74-4BA9-969E-A65C095BF310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE58835-0F74-4BA9-969E-A65C095BF310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE58835-0F74-4BA9-969E-A65C095BF310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE58835-0F74-4BA9-969E-A65C095BF310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A0BDC95-E55D-4927-87A0-C2A55610E7FD}
+	EndGlobalSection
+EndGlobal

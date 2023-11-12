@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstraa\\Dijkstraa.csproj": {}
+    "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstra\\Belman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstraa\\Dijkstraa.csproj": {
+    "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstra\\Belman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstraa\\Dijkstraa.csproj",
-        "projectName": "Dijkstraa",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstraa\\Dijkstraa.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstra\\Belman.csproj",
+        "projectName": "Belman",
+        "projectPath": "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstra\\Belman.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstraa\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\source\\repos\\Belman-Dijkstra\\Dijkstra\\Dijkstra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
